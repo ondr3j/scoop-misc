@@ -1,0 +1,25 @@
+{
+    "homepage": "http://tdm-gcc.tdragon.net/",
+    "license": "GPL",
+    "architecture": {
+        "64bit": {
+            "version": "2.25",
+            "url": "http://downloads.sourceforge.net/project/tdm-gcc/GNU%20binutils/binutils-2.25-tdm64-1.tar.lzma",
+            "hash": "sha1:0a32b7c151a770757109af748f0ad7c3f45103d1",
+            "checkver": {
+                "url": "http://tdm-gcc.tdragon.net/download",
+                "re": "binutils-(\\d+.\\d+)[^/]+tdm64"
+            }
+        },
+        "32bit": {
+            "version": "2.24",
+            "url": "http://downloads.sourceforge.net/project/mingw/MinGW/Base/binutils/binutils-2.24/binutils-2.24-1-mingw32-bin.tar.xz",
+            "hash": "sha1:9818107883594b09bc78da7705ff70f0f47d29c9",
+            "checkver": {
+                "url": "http://tdm-gcc.tdragon.net/download",
+                "re": "binutils-(\\d+.\\d+)[^/]+mingw32"
+            }
+        }
+    },
+    "env_add_path": "bin"
+}
