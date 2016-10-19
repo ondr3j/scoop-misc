@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "http://patrovic.com/dl/xz-5.2.2-vc14-x64.zip",
-            "hash": "sha1:409e8657b05e0b1161d6ae5698bf0ee7c4f0a41b",
+            "hash": "sha1:dbdc2d58c5e77514767a1759af831454c7240d4c"
         }
     },
     "env_add_path": "bin",
