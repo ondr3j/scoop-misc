@@ -4,14 +4,8 @@
     "license": "http://www.zlib.net/zlib_license.html",
     "architecture": {
         "64bit": {
-            "url": "http://patrovic.com/dl/zlib-1.2.8-vc14-x64.zip",
-            "hash": "sha1:5d0e85c8f3344aa1aa60566f24ef70621e196567"
+            "url": "http://windows.php.net/downloads/php-sdk/deps/vc14/x64/zlib-1.2.8-vc14-x64.zip",
+            "hash": "sha1:719b8c9e4c7fd594f0c907bfdddc1a9312250cc9"
         }
-    },
-    "env_add_path": "bin",
-    "env_set": {
-        "ZLIB_HOME": "$dir",
-        "ZLIB_LIB": "$dir\\lib",
-        "ZLIB_INCLUDE": "$dir\\include"
     }
 }
