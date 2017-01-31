@@ -8,7 +8,5 @@
             "hash": "sha1:fac1852391890d77ce594a054553d576d9a0943b"
         }
     },
-    "bin": [
-        "bin\\openssl.exe"
-    ]
+    "env_add_path": "bin"
 }
