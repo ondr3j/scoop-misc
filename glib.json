@@ -8,16 +8,5 @@
             "hash": "sha1:a7a28ffe1b57735ba0dd06c8cf8c159947a4b65e"
         }
     },
-    "bin": [
-        "bin\\gdbus.exe",
-        "bin\\gio-querymodules.exe",
-        "bin\\gio.exe",
-        "bin\\glib-compile-resources.exe",
-        "bin\\glib-compile-schemas.exe",
-        "bin\\glib-genmarshal.exe",
-        "bin\\gresource.exe",
-        "bin\\gsettings.exe",
-        "bin\\gspawn-win64-helper-console.exe",
-        "bin\\gspawn-win64-helper.exe"
-    ]
+    "env_add_path": "bin"
 }
