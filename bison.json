@@ -4,8 +4,9 @@
     "license": "GPL",
     "url": "https://sourceforge.net/projects/winflexbison/files/win_flex_bison-2.5.7.zip",
     "hash": "sha1:d5133167391b56247e3ffe581bf1120525fe05d5",
-    "bin": [
-        [ "win_bison.exe", "bison" ]
-    ],
-    "pre_install": "Remove-Item -Recurse $dir\\custom_build_rules,$dir\\win_flex.exe,$dir\\FlexLexer.h"
+    "bin": "bison.exe",
+    "pre_install": "
+        Rename-Item $dir\\win_bison.exe $dir\\bison.exe
+        Remove-Item -Recurse $dir\\custom_build_rules,$dir\\win_flex.exe,$dir\\FlexLexer.h
+    "
 }
