@@ -5,7 +5,7 @@
     "url": "https://sourceforge.net/projects/winflexbison/files/win_flex_bison-2.5.7.zip",
     "hash": "sha1:d5133167391b56247e3ffe581bf1120525fe05d5",
     "bin": [
-        [ "win-bison.exe", "bison" ]
+        [ "win_bison.exe", "bison" ]
     ],
-    "pre_install": "Remove-Item $dir\\custom_build_rules,$dir\\win_flex.exe,$dir\\FlexLexer.h"
+    "pre_install": "Remove-Item -Recurse $dir\\custom_build_rules,$dir\\win_flex.exe,$dir\\FlexLexer.h"
 }
